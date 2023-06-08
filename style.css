@@ -156,3 +156,23 @@ body{
 .contenedor-terciario h2{
     padding-top: 20px;
 }
+
+/*PROYECTOS*/
+
+.contenedor-proyectos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    color: black;
+}
+
+/*CONTACTO*/
+
+.contenedor-flotante{
+
+}
