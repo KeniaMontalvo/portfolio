@@ -10,8 +10,8 @@
 <body>
     <!--BARRA DE NAVEGACIÓN-->
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="secciones">
                 <li>
                     Hola
                 </li>
@@ -21,67 +21,67 @@
                 <li>
                     Proyectos
                 </li>
-                <li>
+                <li class="boton">
                     Contacto
                 </li>
             </ul>
         </nav>
     </header>
     <!--SECCIÓN PRINCIPAL-->
-    <main>
-        <div>
+    <main class="contenedor">
+        <div class="contenedor-principal">
             <h1>
-                ¡Hola! Soy <span>Kenia Montalvo </span>
+                ¡Hola! Soy <span class="texto-resaltado">Kenia Montalvo </span>
             </h1>
             <p>
                 Desarrolladora, coleccionista de álbumes y ARMY de BTS
             </p>
-            <button>
+            <button class="boton">
                 Lo que hago
             </button>
         </div>
-        <div>
+        <div class="contenedor-imagen">
             <img src="" alt="">
         </div>
     </main>
     <!--SECCIÓN DE SKILLS-->
-    <section>
+    <section class="contenedor-secundario">
         <h2>
             Mis conocimientos
         </h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis minus asperiores itaque mollitia delectus dolor quasi maiores nisi vero perspiciatis.
         </p>
-        <div>
-            <article>
+        <div class="contenedor-tarjetas">
+            <article class="tarjeta">
                 HTML 5
             </article>
-            <article>
+            <article class="tarjeta">
                 CSS 3
             </article>
-            <article>
+            <article class="tarjeta">
                 JavaScript
             </article>
-            <article>
+            <article class="tarjeta">
                 GIT
             </article>
         </div>
-        <div>
-            <article>
+        <div class="contenedor-tarjetas">
+            <article class="tarjeta">
                 Trello
             </article>
-            <article>
+            <article class="tarjeta">
                 Figma
             </article>
         </div>
-        <div>
-            <article>
+        <div class="contenedor-tarjetas">
+            <article class="tarjeta">
                 Metodología Ágil
-            </article>
+            </article class="tarjeta">
         </div>
     </section>
     <!--SECCIÓN SOBRE MÍ-->
-    <section>
+    <section class="contenedor-secundario">
         <img src="" alt="">
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quam, maxime consequuntur ea pariatur dolore molestias et nostrum amet alias.
@@ -91,44 +91,44 @@
         </h2>
     </section>
     <!--SECCIÓN DE PROYECTOS PARA ACTUALIZAR-->
-    <section>
+    <section class="contenedor-secundario">
         <h2>
             Mis proyectos
         </h2>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, voluptas! Quam fugit dolorum veritatis consectetur culpa dolore nemo accusamus dignissimos.
         </p>
-        <div>
-            <article>
+        <div class="contenedor-tarjetas">
+            <article class="tarjeta">
                 Portfolio
             </article>
-            <article>
+            <article class="tarjeta">
                 Próximo Generador de memes
             </article>
-            <article>
+            <article class="tarjeta">
                 Próximo Match 3
             </article>
-            <article>
+            <article class="tarjeta">
                 Próximo Controlador de gastos
             </article>
-            <article>
+            <article class="tarjeta">
                 Próximo Administrador de reuniones
             </article>
-            <article>
+            <article class="tarjeta">
                 Próximo Todo App
             </article>
-            <article>
+            <article class="tarjeta">
                 Próximo Buscador de películas
             </article>
         </div>
     </section>
     <!--FORMULARIO-->
-    <section>
-        <div>
-            <div>
-                <h4>
+    <section class="contenedor-secundario">
+        <div class="contenedor-flotante">
+            <div class="contacto">
+                <h2>
                     Contáctame
-                </h4>
+                </h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, velit. Placeat adipisci enim, veniam fugit rem dicta obcaecati sint doloribus!
                 </p>
@@ -147,25 +147,30 @@
                     </li>
                 </ul>
             </div>
-            <form action="">
-                <label for="">
-                    Nombre*
-                </label>
-                <input type="text" name="" id="">
-                <label for="">
-                    Apellido*
-                </label>
-                <input type="text" name="" id="">
-                <label for="">
-                    Email*
-                </label>
-                <input type="email" name="" id="">
-                <label for="">
-                    Mensaje*
-                </label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="">
-            </form>
+            <div class="formulario">
+                <h2>
+                    Escríbeme
+                </h2>
+                <form action="">
+                    <label for="">
+                        Nombre*
+                    </label>
+                    <input type="text" name="" id="">
+                    <label for="">
+                        Apellido*
+                    </label>
+                    <input type="text" name="" id="">
+                    <label for="">
+                        Email*
+                    </label>
+                    <input type="email" name="" id="">
+                    <label for="">
+                        Mensaje*
+                    </label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="ENVIAR">
+                </form>
+            </div>
         </div>
     </section>
     <!--PIE DE PÁGINA-->
