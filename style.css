@@ -128,3 +128,31 @@ body{
 
 /*SOBRE MÍ*/
 
+.contenedor-terciario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    height: 350px;
+    background-color: #8D72E1;
+    color: white;
+}
+
+.contenedor-terciario img{
+    width: 70px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.contenedor-terciario p{
+    margin-left: 210px;
+    margin-right: 210px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contenedor-terciario h2{
+    padding-top: 20px;
+}
