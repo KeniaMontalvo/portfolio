@@ -29,4 +29,4 @@ En este proyecto me enfoqué en construir una estructura fácil de visualizar y 
 Aprender a utilizar las etiquetas estándar de HTML5, los estilos de CSS3 y aplicar el diseño responsivo.
 
 ## 4. Link a Demo
-Aquí puedes visualizar mi proyecto terminado: [Portfolio de Kenia] ([(https://keniamontalvo.github.io/portafolio/])
+Aquí puedes visualizar mi proyecto terminado: [Portfolio de Kenia] ((https://keniamontalvo.github.io/portafolio/)
