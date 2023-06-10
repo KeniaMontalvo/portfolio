@@ -220,23 +220,29 @@
                 <h2>
                     Escríbeme
                 </h2>
-                <form action="">
-                    <label for="">
-                        Nombre*
-                    </label>
-                    <input type="text" name="" id="">
-                    <label for="">
-                        Apellido*
-                    </label>
-                    <input type="text" name="" id="">
-                    <label for="">
+                <form>
+                    <div class="informacion-principal">
+                        <div class="contacto-nombre">
+                            <label for="nombre">
+                                Nombre*
+                            </label>
+                            <input type="text" name="nombre" id="nombre" placeholder="p. ej.: Kenia" maxlength="20">
+                        </div>
+                        <div class="contacto-apellido">
+                            <label for="apellido">
+                                Apellido*
+                            </label>
+                            <input type="text" name="apellido" id="apellido" placeholder="p. ej.: Montalvo" maxlength="30">
+                        </div>
+                    </div>
+                    <label for="email">
                         Email*
                     </label>
-                    <input type="email" name="" id="">
-                    <label for="">
+                    <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" class="email">
+                    <label for="mensaje">
                         Mensaje*
                     </label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="mensaje" id="mensaje" cols="60" rows="10" placeholder="Escriba un mensaje aquí"></textarea>
                     <input type="submit" value="ENVIAR" class="boton-envio">
                 </form>
             </div>

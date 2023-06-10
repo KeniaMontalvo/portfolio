@@ -200,6 +200,8 @@ body{
     border: 1px solid rgb(199, 199, 199);
 }
 
+/*REDES SOCIALES DEL CONTENEDOR DE CONTACTO*/
+
 .contacto{
     width: 50%;
     padding-top: 70px;
@@ -235,12 +237,6 @@ body{
     color: black;
 }
 
-.formulario{
-    width: 50%;
-    padding-top: 70px;
-    padding-left: 50px;
-}
-
 .boton-envio{
     background-color: #8D72E1;
     color: white;
@@ -253,4 +249,61 @@ body{
     height: 40px;
     margin-top: 23px;
     margin-right: 135px;
+}
+
+/*FORMULARIO DEL CONTENEDOR DE CONTACTO*/
+
+.formulario{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+form input {
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 187px;
+    background-color: rgb(248, 248, 248);
+    padding-left: 15px;
+}
+
+.informacion-principal{
+    display: flex;
+}
+
+.contacto-nombre{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-apellido{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.email{
+    width: 450px;
+    height: 30px;
+}
+
+textarea{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+    padding-left: 15px;
+    padding-top: 10px;
 }
