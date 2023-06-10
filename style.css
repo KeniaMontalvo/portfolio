@@ -307,3 +307,37 @@ textarea{
     padding-left: 15px;
     padding-top: 10px;
 }
+
+/*FOOTER*/
+
+footer li{
+    list-style: none;
+}
+
+.lista-final{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.lista-final li{
+    padding: 0 12px;
+    text-transform: uppercase;
+}
+
+.redes-sociales-final{
+    display: flex;
+}
+
+.texto-pie-de-pagina{
+    font-size: 15px;
+}
+
+.contenedor-final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        background-color: #8D72E1;
+        color: white;
+}
