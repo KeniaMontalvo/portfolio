@@ -171,8 +171,86 @@ body{
     color: black;
 }
 
+.fondo-blanco{
+    background-color: white;
+}
+
 /*CONTACTO*/
 
-.contenedor-flotante{
+.contenedor-contacto{
+    background-color: #f4faff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
 
+.contenedor-contacto h2{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.contenedor-flotante{
+    width: 1200px;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    margin: 100px;
+    border-radius: 25px;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.contacto{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.contacto h2{
+    padding-left: 25px;
+}
+
+.contacto p{
+    padding-left: 25px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+}
+
+.redes-sociales li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/*MEDIDA PREDOMINADA PARA ÍCONOS*/
+
+.redes-sociales img{
+    width: 35px;
+    padding-right: 10px;
+}
+
+.redes-sociales a{
+    text-decoration: none;
+    color: black;
+}
+
+.formulario{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.boton-envio{
+    background-color: #8D72E1;
+    color: white;
+    border-radius: 25px;
+    padding: 0 33px;
+    text-transform: uppercase;
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 23px;
+    margin-right: 135px;
 }
