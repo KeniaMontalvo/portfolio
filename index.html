@@ -16,22 +16,30 @@
         <nav class="navbar">
             <ul class="secciones">
                 <li>
-                    Hola
+                    <a href="#hola">
+                        Hola
+                    </a>
                 </li>
                 <li>
-                    Conocimientos
+                    <a href="#conocimientos">
+                        Conocimientos
+                    </a>
                 </li>
                 <li>
-                    Proyectos
+                    <a href="#proyectos">
+                        Proyectos
+                    </a>
                 </li>
             </ul>
             <button class="boton">
-                Contacto
+                <a href="#info-contacto">
+                    Contacto
+                </a>
             </button>
         </nav>
     </header>
     <!--SECCIÓN PRINCIPAL-->
-    <main class="contenedor">
+    <main class="contenedor" id="hola">
         <div class="contenedor-principal">
             <h1>
                 ¡Hola! Soy <br><span class="texto-resaltado">Kenia Montalvo </span>
@@ -40,7 +48,9 @@
                 Desarrolladora, coleccionista de álbumes y ARMY de BTS
             </p>
             <button class="boton">
-                Lo que hago
+                <a href="#sobre-mi">
+                    Sobre mí
+                </a>
             </button>
         </div>
         <div class="contenedor-imagen">
@@ -48,7 +58,7 @@
         </div>
     </main>
     <!--SECCIÓN DE SKILLS-->
-    <section class="contenedor-secundario">
+    <section class="contenedor-secundario" id="conocimientos">
         <h2>
             Mis conocimientos
         </h2>
@@ -105,7 +115,7 @@
         </div>
     </section>
     <!--SECCIÓN SOBRE MÍ-->
-    <section class="contenedor-terciario">
+    <section class="contenedor-terciario" id="sobre-mi">
         <img src="./images/quotation-right-mark.png" alt="Imagen de comillas">
         <p>
             Me considero una comunicadora habilidosa permitiéndome trabajar de manera efectiva en proyectos multidisciplinarios. Disfruto colaborar con otros profesionales, ya sea en un entorno ágil o en equipos interfuncionales. Tengo la capacidad de contribuir de manera constructiva, escuchar diferentes perspectivas y trabajar en conjunto para lograr objetivos comunes. Me enfrento a los desafíos con una mentalidad analítica y creativa, prestando atención a los detalles me aseguro de que el código sea limpio, bien estructurado y siga las mejores prácticas. Estoy constantemente buscando oportunidades para mejorar y optimizar mi trabajo.
@@ -115,7 +125,7 @@
         </h2>
     </section>
     <!--SECCIÓN DE PROYECTOS PARA ACTUALIZAR-->
-    <section class="contenedor-secundario fondo-blanco">
+    <section class="contenedor-secundario fondo-blanco" id="proyectos">
         <h2>
             Mis proyectos
         </h2>
@@ -167,21 +177,23 @@
             </article>
             <article class="tarjeta">
                 <img src="./images/undraw_audio_conversation_re_3t38.svg" alt="Buscador de Películas">
-                <a href="https://keniamontalvo.github.io/landingkpop/">
+                <a href="https://keniamontalvo.github.io/landingkpop/" target="_blank">
                     Página de Ventas Kpop
                 </a>
             </article>
             <article class="tarjeta">
                 <img src="./images/undraw_online_test_re_kyfx.svg" alt="Buscador de Películas">
-                <a href="https://keniamontalvo-clonaciongoogle.netlify.app/">
+                <a href="https://keniamontalvo-clonaciongoogle.netlify.app/" target="_blank">
                     Clonación de Google
                 </a>
             </article>
         </div>
     </section>
+
     <!--FORMULARIO-->
+
     <section class="contenedor-contacto">
-        <div class="contenedor-flotante">
+        <div class="contenedor-flotante" id="info-contacto">
             <div class="contacto">
                 <h2>
                     Contáctame
@@ -191,25 +203,25 @@
                 </p>
                 <ul class="redes-sociales">
                     <li>
-                        <img src="./images/instagram.png" alt="">
-                        <a href="#">
+                        <img src="/images/instagram.png" alt="Usuario de Instagram">
+                        <a href="https://www.instagram.com/kenia_montalvo/" target="_blank">
                             @kenia_montalvo
                         </a>
                     </li>
                     <li>
-                        <img src="./images/github.png" alt="">
-                        <a href="#">
+                        <img src="/images/github.png" alt="Usuario de GitHub">
+                        <a href="https://github.com/KeniaMontalvo" target="_blank">
                             KeniaMontalvo
                         </a>
                     </li>
                     <li>
-                        <img src="./images/linkedin.png" alt="">
-                        <a href="#">
+                        <img src="/images/linkedin.png" alt="Usuario de Linkedin">
+                        <a href="https://www.linkedin.com/in/kenia-montalvo/" target="_blank">
                             kenia-montalvo
                         </a>
                     </li>
                     <li>
-                        <img src="./images/gmail.png" alt="">
+                        <img src="/images/gmail.png" alt="Correo electrónico">
                         <a href="#">
                             kenlimonra@gmail.com
                         </a>
@@ -252,35 +264,44 @@
     <footer class="contenedor-final">
         <ul class="lista-final">
             <li>
-                Hola
+                <a href="#hola">
+                    Hola
+                </a>     
             </li>
             <li>
-                Conocimientos
+                <a href="#conocimientos">
+                    Conocimientos
+                </a>
             </li>
-            <li>Proyectos</li>
             <li>
-                Contacto
+                <a href="#proyectos">
+                    Proyectos</li>
+                </a>
+            <li>
+                <a href="info-contacto">
+                    Contacto
+                </a>
             </li>
         </ul>
         <ul class="redes-sociales lista-final">
             <li>
-                <a href="">
-                    <img src="/images/instagram.png" alt="">
+                <a href="https://www.instagram.com/kenia_montalvo/" target="_blank">
+                    <img src="/images/instagram.png" alt="Enlace a Instagram">
                 </a>
             </li>
             <li>
-                <a href="">
-                    <img src="/images/github.png" alt="">
+                <a href="https://github.com/KeniaMontalvo" target="_blank">
+                    <img src="/images/github.png" alt="Enlace a Github">
                 </a>
             </li>
             <li>
-                <a href="">
-                    <img src="/images/linkedin.png" alt="">
+                <a href="https://www.linkedin.com/in/kenia-montalvo/" target="_blank">
+                    <img src="/images/linkedin.png" alt="Enlace a Linkedin">
                 </a>
             </li>
             <li>
-                <a href="">
-                    <img src="/images/gmail.png" alt="">
+                <a href="#info-contacto">
+                    <img src="/images/gmail.png" alt="Enlace a contacto">
                 </a>
             </li>
         </ul>

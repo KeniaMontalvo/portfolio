@@ -29,9 +29,17 @@ body{
     
 }
 
+.secciones li a {
+    text-decoration: none;
+    color: black;
+}
+
+.secciones a:hover {
+    color:#8D72E1;
+}
+
 .navbar .boton{
     background-color: #8D72E1;
-    color: white;
     border-radius: 25px;
     padding: 0 33px;
     text-transform: uppercase;
@@ -41,6 +49,15 @@ body{
     height: 40px;
     margin-top: 23px;
     margin-right: 135px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .boton:hover{
+    background-color: #B9E0FF;
 }
 
 /*CONTENEDOR PRINCIPAL*/
@@ -56,6 +73,10 @@ body{
 .texto-resaltado{
     color:#8D72E1;
     font-size: 55px;
+}
+
+.texto-resaltado:hover{
+    color: #6C4AB6;
 }
 
 .contenedor-principal{
@@ -77,6 +98,11 @@ body{
     height: 40px;
     padding: 0 33px;
     margin-top: 15px;
+}
+
+.contenedor-principal .boton:hover{
+    background-color: #B9E0FF;
+    cursor: pointer;
 }
 
 .contenedor-imagen img{
@@ -119,6 +145,11 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.tarjeta:hover{
+    border: 1px solid #8D72E1;
+    color: #8D72E1;
 }
 
 .tarjeta img{
@@ -169,6 +200,13 @@ body{
 .tarjeta a {
     text-decoration: none;
     color: black;
+}
+.tarjeta:hover {
+    cursor: pointer;
+}
+
+.tarjeta a:hover{
+    color: #8D72E1;
 }
 
 .fondo-blanco{
@@ -223,6 +261,11 @@ body{
     display: flex;
     align-items: center;
     padding-bottom: 10px;
+}
+
+.redes-sociales a:hover{
+    color: #8D72E1;
+    text-decoration: underline;
 }
 
 /*MEDIDA PREDOMINADA PARA ÍCONOS*/
@@ -308,6 +351,11 @@ textarea{
     padding-top: 10px;
 }
 
+.boton-envio:hover{
+    background-color: #B9E0FF;
+    cursor: pointer;
+}
+
 /*FOOTER*/
 
 footer li{
@@ -324,7 +372,17 @@ footer li{
     text-transform: uppercase;
 }
 
-.redes-sociales-final{
+.lista-final a{
+    text-decoration: none;
+    color: white;
+}
+
+.lista-final a:hover{
+    color: #B9E0FF;
+    text-decoration: underline;
+}
+
+.redes-sociales .lista-final{
     display: flex;
 }
 
