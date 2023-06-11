@@ -267,6 +267,7 @@ body{
 .redes-sociales a:hover{
     color: #8D72E1;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 /*MEDIDA PREDOMINADA PARA ÍCONOS*/
