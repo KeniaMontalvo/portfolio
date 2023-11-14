@@ -11,7 +11,7 @@
 
 ## 1. Intro
 
-A través de ADA ITW, como primer proyecto realicé un portfolio personal. Sirviendo como introducción personal y presentación de los proyectos que estaré realizando a lo largo del curso, de modo que cualquiera que acceda al mismo pueda ver lo que hayas armado durante el mismo. Se desarrollará la estructura, los estilos y las secciones principales. Se agregaron a lo largo de las clases nuevas secciones, elementos, interacciones y efectos para una mejor y más completa experiencia de usuario.
+A través de mi camino de aprendizaje, realicé un portfolio personal diseñado a mi estilo. Sirviendo como introducción personal y presentación de los proyectos que estaré realizando a lo largo de mi proceso de práctica y profesional, de modo que cualquiera que acceda al mismo pueda ver lo que hayas armado durante el mismo. Se desarrollará la estructura, los estilos y las secciones principales. Se agregaron a lo largo de las clases nuevas secciones, elementos, interacciones y efectos para una mejor y más completa experiencia de usuario.
 
 ## 2. Qué construí
 
