@@ -14,6 +14,11 @@ a{
     color: #4D2A33;
 }
 
+.sombra{
+    border-radius: 10px;
+    box-shadow: 3px 2px 4px #FFD1DA;
+}
+
 /*BARRA DE NAVEGACIÓN*/
 
 nav.navbar{
@@ -21,8 +26,6 @@ nav.navbar{
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 3px 2px 4px #FFD1DA;
 }
 
 ul.list__nav__navbar{
@@ -38,6 +41,114 @@ li.item__list__nav{
 
 div.iconos__navbar img{
     margin: 0 5px;
+}
+
+/*MAIN*/
+
+main.seccion__principal{
+    margin: 10px 0;
+}
+
+div.contenedor__principal{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+div.contenedor__img img{
+    width: 7rem;
+    border-radius: 100%;
+}
+
+div.contenedor__info{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+div.contenedor__info__datos__principales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.info__btn{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+div.info__datos__nombre{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1.info__datos__titulo{
+    font-size: 0.9rem;
+    margin: 3px 5px 3px 0;
+}
+
+a.icono__enlace img{
+    width: 20px;
+}
+
+h3.info__datos__puesto{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 3px 5px 3px 0;
+}
+
+h3.info__datos__lugar{
+    font-size: 0.8rem;
+    margin: 3px 5px 3px 0;
+}
+
+button.btn__principal{
+    background-color: #f11a7b;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 0.7rem;
+    box-shadow: 1px 1px 4px #d5d5d5;
+    cursor: pointer;
+}
+
+button.btn__principal:hover{
+    background-color: #b8145e;
+}
+
+div.contenedor__info__datos__enlaces{
+    margin-top: 10px;
+}
+
+ul.list__redes__sociales__principal{
+    display: flex;
+    padding-left: 0px;
+}
+
+li.item__list__redes__principales{
+    margin-right: 5px;
+}
+
+li.item__list__redes__principales a{
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+li.li.item__list__redes__principales a img{
+    margin-right: 10px;
+}
+
+a.enlace__red__imagen img{
+    margin-right: 5px;
 }
 
 
