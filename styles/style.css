@@ -214,10 +214,56 @@ button.btn__skill{
     border: none;
     background-color: white;
     border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #4D2A33;
 }
 
 /*SECCIÓN DE FORMACIÓN ACADÉMICA*/
 
+div.contenedor__formacion__academica{
+    padding: 10px 30px;
+}
+
+div.formacion__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+article.card__general__formacion{
+    width: 20%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+div.formacion__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+}
+
+div.formacion__info{
+    height: 80px;
+}
+
+div.formacion__img img{
+    width: 50%;
+}
+
+h3.formacion__titulo{
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+p.formacion__descripcion{
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
 
 
 /*CONTACTO*/
