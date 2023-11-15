@@ -216,6 +216,7 @@ button.btn__skill{
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     color: #4D2A33;
+    margin: 5px 0;
 }
 
 /*SECCIÓN DE FORMACIÓN ACADÉMICA*/
@@ -265,16 +266,88 @@ p.formacion__descripcion{
     margin: 5px 0;
 }
 
+/*SECCION PARA PROYECTOS*/
+
+div.proyecto__actual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+div.proyecto__actual__info{
+    width: 50%;
+    padding: 0 30px;
+}
+
+div.proyecto__actual__img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+div.proyecto__actual__img img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+button.btn__repo{
+    background-color: #f11a7b;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 4px #d5d5d5;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+button.btn__demo{
+    background-color: white;
+    border: 1px solid #f11a7b;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    color: #f11a7b;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 4px #d5d5d5;
+    cursor: pointer;
+}
+
+/*RESTO DE PROYECTOS*/
+
+div.contenedor__skills{
+    display:flex;
+    justify-content: center;
+}
+
+div.skill__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.skill__card__cuadro{
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    margin: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+div.skill__card__img img{
+    width: 100px
+}
 
 /*CONTACTO*/
-
-
-
-/*REDES SOCIALES DEL CONTENEDOR DE CONTACTO*/
-
-
-
-/*FORMULARIO DEL CONTENEDOR DE CONTACTO*/
 
 
 /*FOOTER*/
