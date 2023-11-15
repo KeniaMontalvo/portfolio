@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(to right top, #fff6f8, #ffedf1, #ffe4e9, #ffdae2, #ffd1da);
     color: #4D2A33;
-    margin: 10px;
+    margin: 20px;
 }
 
 li{
@@ -19,7 +19,22 @@ a{
     box-shadow: 3px 2px 4px #FFD1DA;
 }
 
+.contenedor__blanco{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.contenedor__sincolor{
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
 /*BARRA DE NAVEGACIÓN*/
+
+div.logo__navbar img{
+    width: 180%;
+}
 
 nav.navbar{
     display: flex;
@@ -34,13 +49,18 @@ ul.list__nav__navbar{
 }
 
 li.item__list__nav{
-    margin: 0 5px;
+    margin: 0 15px;
     font-weight: 600;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
+}
+
+div.iconos__navbar{
+    display: flex;
 }
 
 div.iconos__navbar img{
     margin: 0 5px;
+    width: 20px;
 }
 
 /*MAIN*/
@@ -50,16 +70,13 @@ main.seccion__principal{
 }
 
 div.contenedor__principal{
-    background-color: white;
-    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
 }
 
 div.contenedor__img img{
-    width: 7rem;
+    width: 8rem;
     border-radius: 100%;
 }
 
@@ -88,7 +105,7 @@ div.info__datos__nombre{
 }
 
 h1.info__datos__titulo{
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     margin: 3px 5px 3px 0;
 }
 
@@ -97,13 +114,13 @@ a.icono__enlace img{
 }
 
 h3.info__datos__puesto{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 3px 5px 3px 0;
 }
 
 h3.info__datos__lugar{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 3px 5px 3px 0;
 }
 
@@ -112,10 +129,10 @@ button.btn__principal{
     font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 10px;
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     box-shadow: 1px 1px 4px #d5d5d5;
     cursor: pointer;
 }
@@ -134,13 +151,13 @@ ul.list__redes__sociales__principal{
 }
 
 li.item__list__redes__principales{
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
 li.item__list__redes__principales a{
     display: flex;
     align-items: center;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
 }
 
 li.li.item__list__redes__principales a img{
@@ -149,14 +166,57 @@ li.li.item__list__redes__principales a img{
 
 a.enlace__red__imagen img{
     margin-right: 5px;
+    width: 20px;
 }
 
+/*SOBRE MÍ*/
+
+div.contenedor__sobre__mi{
+    padding: 10px 30px;
+}
+
+h2.subtitulo__sobre__mi{
+    font-size: 1rem;
+}
 
 /*SKILLS*/
 
+div.contenedor__skills{
+    display:flex;
+    justify-content: center;
+}
 
+div.skill__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-/*SOBRE MÍ*/
+div.skill__card__cuadro{
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    margin: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+div.skill__card__img img{
+    width: 100px
+}
+
+button.btn__skill{
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/*SECCIÓN DE FORMACIÓN ACADÉMICA*/
 
 
 
@@ -165,10 +225,6 @@ a.enlace__red__imagen img{
 
 
 /*REDES SOCIALES DEL CONTENEDOR DE CONTACTO*/
-
-
-
-/*MEDIDA PREDOMINADA PARA ÍCONOS*/
 
 
 
