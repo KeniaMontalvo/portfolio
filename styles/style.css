@@ -1,0 +1,71 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right top, #fff6f8, #ffedf1, #ffe4e9, #ffdae2, #ffd1da);
+    color: #4D2A33;
+    margin: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #4D2A33;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+nav.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 2px 4px #FFD1DA;
+}
+
+ul.list__nav__navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+li.item__list__nav{
+    margin: 0 5px;
+    font-weight: 600;
+    font-size: 0.6rem;
+}
+
+div.iconos__navbar img{
+    margin: 0 5px;
+}
+
+
+/*SKILLS*/
+
+
+
+/*SOBRE MÍ*/
+
+
+
+/*CONTACTO*/
+
+
+
+/*REDES SOCIALES DEL CONTENEDOR DE CONTACTO*/
+
+
+
+/*MEDIDA PREDOMINADA PARA ÍCONOS*/
+
+
+
+/*FORMULARIO DEL CONTENEDOR DE CONTACTO*/
+
+
+/*FOOTER*/
+
+
+/*MEDIA QUERIES*/
+

@@ -4,325 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/images/flower.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/img/flower-fill.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Portfolio</title>
 </head>
 
 <body>
 
     <!--BARRA DE NAVEGACIÓN-->
+<nav class="navbar">
+    <div class="logo__navbar">
+        <img src="./assets/img/flower-fill.svg" alt="Logo flor">
+    </div>
+    <div class="nav__navbar">
+        <ul class="list__nav__navbar"> 
+            <li class="item__list__nav"><a href="">Inicio</a></li>
+            <li class="item__list__nav"><a href="">Sobre mí</a></li>
+            <li class="item__list__nav"><a href="">Habilidades</a></li>
+        </ul>
+    </div>
+    <div class="iconos__navbar">
+        <img src="./assets/img/portfolio.svg" alt="Icono proyectos">
+        <img src="./assets/img/school.svg" alt="Icono formación académica">
+        <img src="./assets/img/account-box.svg" alt="Icono contacto">
+    </div>
+</nav>
 
-    <header>
-        <nav class="navbar">
-            <ul class="secciones">
-                <li>
-                    <a href="#hola">
-                        Hola
-                    </a>
-                </li>
-                <li>
-                    <a href="#conocimientos">
-                        Conocimientos
-                    </a>
-                </li>
-                <li>
-                    <a href="#proyectos">
-                        Proyectos
-                    </a>
-                </li>
-            </ul>
-            <button class="boton">
-                <a href="#info-contacto">
-                    Contacto
-                </a>
-            </button>
-        </nav>
-    </header>
+    <!--SECCIÓN HEADER-->
 
-    <!--SECCIÓN PRINCIPAL-->
-
-    <main class="contenedor" id="hola">
-        <div class="contenedor-principal">
-            <h1>
-                ¡Hola! Soy <br><span class="texto-resaltado">Kenia Montalvo </span>
-            </h1>
-            <p>
-                Desarrolladora, coleccionista de álbumes y ARMY de BTS
-            </p>
-            <button class="boton">
-                <a href="#sobre-mi">
-                    Sobre mí
-                </a>
-            </button>
-        </div>
-        <div class="contenedor-imagen">
-            <img src="./images/imagen-principal.svg" alt="Imagen representativa">
-        </div>
-    </main>
 
     <!--SECCIÓN DE SKILLS-->
 
-    <section class="contenedor-secundario" id="conocimientos">
-        <h2>
-            Mis conocimientos
-        </h2>
-        <p>
-            He desarrollado un conjunto diverso de habilidades que abarcan tanto técnicas y personales como el uso de diversas herramientas y software que son fundamentales para la gestión de proyectos y el diseño colaborativo.
-        </p>
-        <div class="contenedor-tarjetas">
-            <article class="tarjeta">
-                <img src="./images/html-5.png" alt="Imagen de HTML">
-                <h4>
-                    HTML 5
-                </h4>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/css-3.png" alt="Imagen de CSS">
-                <h4>
-                    CSS 3
-                </h4>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/js.png" alt="Imagen de JavaScript">
-                <h4>
-                    JavaScript
-                </h4>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/git.png" alt="">
-                <h4>
-                    GIT
-                </h4>
-            </article>
-        </div>
-        <div class="contenedor-tarjetas">
-            <article class="tarjeta">
-                <img src="./images/trello.png" alt="Imagen de Trello">
-                <h4>
-                    Trello
-                </h4>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/figma.png" alt="Imagen de Figma">
-                <h4>
-                    Figma
-                </h4>
-            </article>
-        </div>
-        <div class="contenedor-tarjetas">
-            <article class="tarjeta">
-                <img src="./images/agile.png" alt="Imagen representativa de la Metodología Ágil">
-                <h4>
-                    Metodología Ágil
-                </h4>
-            </article class="tarjeta">
-        </div>
-    </section>
 
     <!--SECCIÓN SOBRE MÍ-->
 
-    <section class="contenedor-terciario" id="sobre-mi">
-        <img src="./images/quotation-right-mark.png" alt="Imagen de comillas">
-        <p>
-            Me considero una comunicadora habilidosa permitiéndome trabajar de manera efectiva en proyectos multidisciplinarios. Disfruto colaborar con otros profesionales, ya sea en un entorno ágil o en equipos interfuncionales. Tengo la capacidad de contribuir de manera constructiva, escuchar diferentes perspectivas y trabajar en conjunto para lograr objetivos comunes. Me enfrento a los desafíos con una mentalidad analítica y creativa, prestando atención a los detalles me aseguro de que el código sea limpio, bien estructurado y siga las mejores prácticas. Estoy constantemente buscando oportunidades para mejorar y optimizar mi trabajo.
-        </p>
-        <h2>
-            Sobre mí
-        </h2>
-    </section>
 
     <!--SECCIÓN DE PROYECTOS PARA ACTUALIZAR-->
 
-    <section class="contenedor-secundario fondo-blanco" id="proyectos">
-        <h2>
-            Mis proyectos
-        </h2>
-        <p>
-            Explora mi colección de proyectos donde exploré diferentes conceptos y tecnologías para aprender y practicar. Desde diseños responsivos hasta interacciones interactivas.
-        </p>
-        <div class="contenedor-proyectos">
-            <article class="tarjeta">
-                <img src="./images/undraw_experience_design_re_dmqq.svg" alt="Portfolio">
-                <a href="https://keniamontalvo.github.io/portafolio/" target="_blank">
-                    Portfolio
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_electricity_k2ft.svg" alt="Generador de memes">
-                <a href="#">
-                    Próximo Generador de memes
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_not_found_re_bh2e.svg" alt="Match 3">
-                <a href="#">
-                    Próximo Match 3
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_bitcoin_re_urgq.svg" alt="Controlador de Gastos">
-                <a href="#">
-                    Próximo Controlador de gastos
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_happy_new_year_di92.svg" alt="Administrador de reuniones">
-                <a href="#">
-                    Próximo Administrador de reuniones
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_search_app_oso2.svg" alt="Todo App">
-                <a href="#">
-                    Próximo Todo App
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_search_engines_ij7q.svg" alt="Buscador de Películas">
-                <a href="#">
-                    Próximo Buscador de películas
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_audio_conversation_re_3t38.svg" alt="Buscador de Películas">
-                <a href="https://keniamontalvo.github.io/landingkpop/" target="_blank">
-                    Página de Ventas Kpop
-                </a>
-            </article>
-            <article class="tarjeta">
-                <img src="./images/undraw_online_test_re_kyfx.svg" alt="Buscador de Películas">
-                <a href="https://keniamontalvo-clonaciongoogle.netlify.app/" target="_blank">
-                    Clonación de Google
-                </a>
-            </article>
-        </div>
-    </section>
 
     <!--FORMULARIO-->
 
-    <section class="contenedor-contacto">
-        <div class="contenedor-flotante" id="info-contacto">
-            <div class="contacto">
-                <h2>
-                    Contáctame
-                </h2>
-                <p>
-                    Estoy disponible para oportunidades laborales, colaboraciones y proyectos emocionantes. ¡No dudes en enviarme un mensaje y estaré encantada de responderte lo antes posible!
-                </p>
-                <ul class="redes-sociales">
-                    <li>
-                        <img src="./images/instagram.png" alt="Usuario de Instagram">
-                        <a href="https://www.instagram.com/kenia_montalvo/" target="_blank">
-                            @kenia_montalvo
-                        </a>
-                    </li>
-                    <li>
-                        <img src="./images/github.png" alt="Usuario de GitHub">
-                        <a href="https://github.com/KeniaMontalvo" target="_blank">
-                            KeniaMontalvo
-                        </a>
-                    </li>
-                    <li>
-                        <img src="./images/linkedin.png" alt="Usuario de Linkedin">
-                        <a href="https://www.linkedin.com/in/kenia-montalvo/" target="_blank">
-                            kenia-montalvo
-                        </a>
-                    </li>
-                    <li>
-                        <img src="./images/gmail.png" alt="Correo electrónico">
-                        <a href="#">
-                            kenlimonra@gmail.com
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="formulario">
-                <h2>
-                    Escríbeme
-                </h2>
-                <form>
-                    <div class="informacion-principal">
-                        <div class="contacto-nombre">
-                            <label for="nombre">
-                                Nombre*
-                            </label>
-                            <input type="text" name="nombre" id="nombre" placeholder="p. ej.: Kenia" maxlength="20">
-                        </div>
-                        <div class="contacto-apellido">
-                            <label for="apellido">
-                                Apellido*
-                            </label>
-                            <input type="text" name="apellido" id="apellido" placeholder="p. ej.: Montalvo" maxlength="30">
-                        </div>
-                    </div>
-                    <label for="email">
-                        Email*
-                    </label>
-                    <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" class="email">
-                    <label for="mensaje">
-                        Mensaje*
-                    </label>
-                    <textarea name="mensaje" id="mensaje" cols="60" rows="10" placeholder="Escriba un mensaje aquí"></textarea>
-                    <input type="submit" value="ENVIAR" class="boton-envio">
-                </form>
-            </div>
-        </div>
-    </section>
 
     <!--PIE DE PÁGINA-->
 
-    <footer class="contenedor-final">
-        <ul class="lista-final">
-            <li>
-                <a href="#hola">
-                    Hola
-                </a>     
-            </li>
-            <li>
-                <a href="#conocimientos">
-                    Conocimientos
-                </a>
-            </li>
-            <li>
-                <a href="#proyectos">
-                    Proyectos</li>
-                </a>
-            <li>
-                <a href="info-contacto">
-                    Contacto
-                </a>
-            </li>
-        </ul>
-        <ul class="redes-sociales lista-final">
-            <li>
-                <a href="https://www.instagram.com/kenia_montalvo/" target="_blank">
-                    <img src="./images/instagram.png" alt="Enlace a Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/KeniaMontalvo" target="_blank">
-                    <img src="./images/github.png" alt="Enlace a Github">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/kenia-montalvo/" target="_blank">
-                    <img src="./images/linkedin.png" alt="Enlace a Linkedin">
-                </a>
-            </li>
-            <li>
-                <a href="#info-contacto">
-                    <img src="./images/gmail.png" alt="Enlace a contacto">
-                </a>
-            </li>
-        </ul>
-        <p class="texto-pie-de-pagina">
-            Hecho con 🤍 por Kenia
-        </p>
-    </footer>
 
 </body>
 </html>
