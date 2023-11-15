@@ -30,6 +30,19 @@ a{
     padding: 20px 0;
 }
 
+button.btn_disabled{
+    background-color: rgb(185, 185, 185);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 140px;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 4px #d5d5d5;
+    margin-bottom: 5px;
+}
+
 /*BARRA DE NAVEGACIÓN*/
 
 div.logo__navbar img{
@@ -302,6 +315,7 @@ button.btn__repo{
     font-size: 0.9rem;
     box-shadow: 1px 1px 4px #d5d5d5;
     cursor: pointer;
+    margin-right: 5px;
     margin-bottom: 5px;
 }
 
@@ -320,31 +334,100 @@ button.btn__demo{
 
 /*RESTO DE PROYECTOS*/
 
-div.contenedor__skills{
+div.contenedor__projects{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-div.skill__card{
+div.project__card{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
-div.skill__card__cuadro{
+div.project__card__cuadro{
     background-color: white;
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 300px;
     margin: 15px 20px;
+    padding: 5px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
     border-radius: 20px;
 }
 
-div.skill__card__img img{
-    width: 100px
+div.project__card__img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px 0;
+}
+
+div.project__card__img img{
+    width: 160px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+div.project__card__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    height: 90px;
+}
+
+h4.project__card__titulo{
+    font-size: 0.8rem;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+p.project__card__descripcion{
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+div.proyectos__botones__contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button.btn__repo__secundario{
+    background-color: #f11a7b;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 140px;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 4px #d5d5d5;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+button.btn__demo__secundario{
+    background-color: white;
+    border: 1px solid #f11a7b;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    height: 35px;
+    width: 140px;
+    color: #f11a7b;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 4px #d5d5d5;
+    cursor: pointer;
 }
 
 /*CONTACTO*/
