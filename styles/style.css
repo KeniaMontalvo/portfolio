@@ -2,6 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(to right top, #fff6f8, #ffedf1, #ffe4e9, #ffdae2, #ffd1da);
     color: #4D2A33;
+    margin: 0;
+}
+
+nav, main, section{
     margin: 20px;
 }
 
@@ -77,10 +81,6 @@ div.iconos__navbar img{
 }
 
 /*MAIN*/
-
-main.seccion__principal{
-    margin: 10px 0;
-}
 
 div.contenedor__principal{
     display: flex;
@@ -444,6 +444,7 @@ form.formulario__contenedor{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 input.input_form{
@@ -476,7 +477,48 @@ textarea.textarea_form{
     color: #4D2A33;
 }
 
+textarea.textarea_form:focus{
+    border-bottom: 1px 1px 4px #b8145e;
+}
+
 /*FOOTER*/
+
+section.seccion__footer{
+    background-color: #4D2A33;
+    color: #FFD1DA;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+footer.contenedor__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.list__nav__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li.item__nav__footer a{
+    color: #FFD1DA;
+    margin: 0 20px;
+}
+
+ul.list__iconos__footer{
+    display: flex;
+}
+
+li.item__iconos__footer{
+    margin: 0 15px;
+}
+
+img.icon_footer{
+    width: 23px;
+}
 
 
 /*MEDIA QUERIES*/
