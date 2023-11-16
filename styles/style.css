@@ -307,7 +307,7 @@ p.formacion__descripcion{
 
 /*SECCION PARA PROYECTOS*/
 
-div.proyecto__actual{
+/* div.proyecto__actual{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,7 +356,7 @@ button.btn__demo{
     font-size: 0.9rem;
     box-shadow: 1px 1px 4px #d5d5d5;
     cursor: pointer;
-}
+} */
 
 /*RESTO DE PROYECTOS*/
 
@@ -675,6 +675,10 @@ img.icon_footer{
 }
 
 @media (max-width:630px){
+
+    div.contenedor__blanco{
+        padding-bottom: 50px
+    }
 
     nav.navbar{
         flex-direction: column;
