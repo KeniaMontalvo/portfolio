@@ -69,6 +69,11 @@ li.item__list__nav{
     margin: 0 15px;
     font-weight: 600;
     font-size: 0.9rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+li.item__list__nav:hover{
+    transform: scale(1.1);
 }
 
 div.iconos__navbar{
@@ -76,8 +81,13 @@ div.iconos__navbar{
 }
 
 div.iconos__navbar img{
-    margin: 0 5px;
-    width: 20px;
+    margin: 0 10px;
+    width: 23px;
+    transition: transform 0.3s ease-in-out;
+}
+
+div.iconos__navbar img:hover{
+    transform: scale(1.1);
 }
 
 /*MAIN*/
@@ -148,10 +158,11 @@ button.btn__principal{
     font-size: 0.9rem;
     box-shadow: 1px 1px 4px #d5d5d5;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
 button.btn__principal:hover{
-    background-color: #b8145e;
+    transform: scale(1.1);
 }
 
 div.contenedor__info__datos__enlaces{
@@ -171,6 +182,10 @@ li.item__list__redes__principales a{
     display: flex;
     align-items: center;
     font-size: 0.9rem;
+}
+
+li.item__list__redes__principales a:hover{
+    text-decoration: underline;
 }
 
 li.li.item__list__redes__principales a img{
@@ -197,6 +212,7 @@ h2.subtitulo__sobre__mi{
 div.contenedor__skills{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.skill__card{
@@ -215,6 +231,11 @@ div.skill__card__cuadro{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+div.skill__card__cuadro:hover {
+    transform: scale(1.1);
 }
 
 div.skill__card__img img{
@@ -230,6 +251,11 @@ button.btn__skill{
     font-family: 'Montserrat', sans-serif;
     color: #4D2A33;
     margin: 5px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+button.btn__skill:hover{
+    transform: scale(1.1);
 }
 
 /*SECCIÓN DE FORMACIÓN ACADÉMICA*/
@@ -345,6 +371,11 @@ div.project__card{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    transition: transform 0.3s ease-in-out;
+}
+
+div.project__card:hover{
+    transform: scale(1.1);
 }
 
 div.project__card__cuadro{
@@ -461,7 +492,7 @@ input.input_form{
 }
 
 input.input_form:focus{
-    border-bottom: 1px 1px 4px #b8145e;
+    border-bottom: 1.5px solid #b8145e;
 }
 
 textarea.textarea_form{
@@ -478,7 +509,26 @@ textarea.textarea_form{
 }
 
 textarea.textarea_form:focus{
-    border-bottom: 1px 1px 4px #b8145e;
+    border-bottom: 1.5px solid #b8145e;
+}
+
+button.btn__final{
+    margin-top: 10px;
+}
+
+/*VALIDACIÓN FORM*/
+
+p.advertencia{
+    font-size: 11px;
+    color: red;
+    margin: 0;
+}
+
+p.advertencia:last-child{
+    color: green;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /*FOOTER*/
@@ -508,18 +558,135 @@ li.item__nav__footer a{
     margin: 0 20px;
 }
 
+li.item__nav__footer a:hover{
+    text-decoration: underline;
+}
+
 ul.list__iconos__footer{
     display: flex;
 }
 
 li.item__iconos__footer{
     margin: 0 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+li.item__iconos__footer:hover{
+    transform: scale(1.1);
 }
 
 img.icon_footer{
     width: 23px;
 }
 
-
 /*MEDIA QUERIES*/
 
+/*TABLET*/
+
+@media (max-width:830px){
+
+    div.contenedor__principal{
+        flex-direction: column;
+    }
+
+    div.contenedor__info__datos__principales{
+        flex-direction: column;
+    }
+
+    div.info__datos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.info__btn{
+        margin-top: 10px;
+    }
+
+    li.item__list__redes__principales{
+        margin-right: 10px;
+    }
+
+    li.item__list__redes__principales a {
+        align-items: flex-start;
+    }
+
+    div.contenedor__formacion__academica{
+        padding: 10px;
+    }
+
+    article.card__general__formacion{
+        width: 35%;
+        margin: 20px 10px;
+    }
+
+    div.formacion__img img{
+        width: 70%;
+    }
+
+    div.formacion__info{
+        margin: 10px 0;
+    }
+
+    div.proyecto__actual{
+        flex-direction: column;
+    }
+
+    div.proyecto__actual__info{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    h2.titulo__proyecto__actual{
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    p.descripcion__proyecto__actual{
+        text-align: center;
+    }
+
+    div.proyecto__actual__img{
+        width: 90%;
+    }
+
+    p.subtitulo__contacto{
+        text-align: center;
+        padding: 0 35px;
+    }
+
+    ul.list__nav__footer{
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    li.item__nav__footer{
+        margin: 5px 0;
+    }
+
+    ul.list__iconos__footer{
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width:630px){
+
+    nav.navbar{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    ul.list__redes__sociales__principal{
+        flex-direction: column;
+    }
+
+    li.item__list__redes__principales{
+        margin-bottom: 10px;
+    }
+
+}
