@@ -45,3 +45,15 @@ function resetearMensajes() {
 function mostrarAdvertencia(elemento, mensaje) {
     elemento.innerHTML = mensaje;
 }
+
+/*FORMULARIO DE CONTACTO*/
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyqigOZ4f-fo8xCVoiRQ8dRXSM94S4t0MW0061fA8DOa6YY6_Lp2bl5UGcqkrakjeZUcQ/exec'
+const formulario = document.forms['submit-form']
+
+formulario.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(formulario)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+})

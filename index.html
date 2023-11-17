@@ -412,17 +412,17 @@
             Favor de completar el siguiente formulario y me pondré en contacto con usted lo antes posible.
         </p>
         <div class="form__contacto__contenedor">
-            <form id="form" class="formulario__contenedor">
-                <input type="text" placeholder="Nombre" class="input_form" id="name">
+            <form id="form" class="formulario__contenedor" name="submit-form">
+                <input type="text" placeholder="Nombre" class="input_form" id="name" name="nombre">
                 <p class="advertencia" id="advertenciaNombre"></p>
                 
-                <input type="email" placeholder="Correo electrónico" class="input_form" id="email">
+                <input type="email" placeholder="Correo electrónico" class="input_form" id="email" name="correo">
                 <p class="advertencia" id="advertenciaEmail"></p>
                 
-                <input type="text" placeholder="Asunto" class="input_form" id="topic">
+                <input type="text" placeholder="Asunto" class="input_form" id="topic" name="asunto">
                 <p class="advertencia" id="advertenciaAsunto"></p>
                 
-                <textarea cols="30" rows="10" class="textarea_form" placeholder="Mensaje" maxlength="300" id="mensaje"></textarea>
+                <textarea cols="30" rows="10" class="textarea_form" placeholder="Mensaje" maxlength="300" id="mensaje" name="mensaje"></textarea>
                 <p class="advertencia" id="advertenciaMensaje"></p>
 
                 <button type="submit" class="btn__principal btn__final" id="enviar-btn">Enviar</button>
