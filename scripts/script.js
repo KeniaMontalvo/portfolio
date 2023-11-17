@@ -1,3 +1,5 @@
+/*VALIDACIÓN*/
+
 const form = document.getElementById("form");
 const nombre = document.getElementById("name");
 const correo = document.getElementById("email");
@@ -17,19 +19,25 @@ form.addEventListener("submit", function (event) {
     // Restablecer los mensajes de advertencia
     resetearMensajes();
 
+    let hayErrores = false;
+
     if (nombre.value.length === 0) {
         mostrarAdvertencia(advertenciaNombre, "Ingrese un nombre");
+        hayErrores = true;
     }
     if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(correo.value)) {
         mostrarAdvertencia(advertenciaEmail, "El correo electrónico no es válido");
+        hayErrores = true;
     }
     if (asunto.value.length === 0) {
         mostrarAdvertencia(advertenciaAsunto, "Ingrese un asunto");
+        hayErrores = true;
     }
     if (mensaje.value.length === 0) {
         mostrarAdvertencia(advertenciaMensaje, "Ingrese un mensaje");
+        hayErrores = true;
     }
-    else {
+    if (!hayErrores) {
         advertenciaGeneral.innerHTML = "¡Tu mensaje se ha enviado!";
     }
 });
