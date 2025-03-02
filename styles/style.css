@@ -207,6 +207,10 @@ h2.subtitulo__sobre__mi{
     font-size: 1rem;
 }
 
+p.descripcion__sobre__mi{
+    text-align: justify;
+}
+
 /*SKILLS*/
 
 div.contenedor__skills{
