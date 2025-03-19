@@ -265,7 +265,7 @@ button.btn__skill:hover{
 /*SECCIÓN DE FORMACIÓN ACADÉMICA*/
 
 div.contenedor__formacion__academica{
-    padding: 10px 30px;
+    padding: 30px;
 }
 
 div.formacion__card{
@@ -293,6 +293,7 @@ div.formacion__img{
 
 div.formacion__info{
     height: 80px;
+    margin-top: 10px;
 }
 
 div.formacion__img img{
@@ -696,5 +697,11 @@ img.icon_footer{
     li.item__list__redes__principales{
         margin-bottom: 10px;
     }
-
+    h3.formacion__titulo{
+        font-size: 0.9rem;
+    }
+    
+    p.formacion__descripcion{
+        font-size: 0.7rem;
+    }
 }
